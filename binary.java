@@ -50,8 +50,10 @@ class binary {
     // call the binary search method
     // pass arguments: array, element, index of first and last element
     int result = obj.binarySearch(array, element, 0, n - 1);
-    if (result == -1)
+    if (result == -1){
       System.out.println("Not found");
+    System.out.println("enter again: ")}
+    
     else
       System.out.println("Element found at index " + result);
   }
