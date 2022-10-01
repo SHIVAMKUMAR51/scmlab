@@ -16,6 +16,7 @@ public class bubble {
             }
         }
         Array(arr);
+        //THIS IS A CODE OF BUBBLE SORT
     }
     
 }
